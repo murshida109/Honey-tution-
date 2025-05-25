@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery Section</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .section {
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    .section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 0 20px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="section" id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1588072432836-e10032774350" alt="Classroom">
+      <img src="https://images.unsplash.com/photo-1600195077909-0aee288f5f32" alt="Students">
+      <img src="https://images.unsplash.com/photo-1584697964325-378b8f6a0161" alt="Learning">
+      <img src="https://images.unsplash.com/photo-1607968565043-6f03bdcbc73d" alt="Group Study">
+    </div>
+  </section>
+
+</body>
+</html>
